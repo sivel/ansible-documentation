@@ -49,7 +49,27 @@ Release Manager
 Planned work
 ============
 
-* TBD
+* Data Tagging
+* Register Projections
+* No longer allow forks to inherit stdio
+* ``ansible-galaxy`` CLI improvements
+   * Denote preferred collection
+   * Add ``uninstall`` command
+   * Support rollback on upgrade failures
+   * Utilize ``requires_ansible`` during installs/upgrades
+   * Support relative ``download_url`` in galaxy API responses
+   * Add support to ansible-galaxy for new console.redhat.com service account auth
+* Move environment variable handling for modules out of shell plugins, to support private environment variables
+* Evaluate pre-fork loop processing in strategy plugins
+* Add alternative to ``sshpass`` to the ``ssh`` connection plugin
+* Evaluate inclusion of ``ssh-agent`` handling
+* Deprecate ``paramiko`` connection plugin
+* Remove deprecated functionality
+* Decrease incidental integration tests
+* Add controller type hinting for discrete areas of the code
+* Decrease testing sanity ignores
+* Update ansible-test container images and VMs
+* Update ansible-test dependencies
 
 
 Delayed work
