@@ -17,3 +17,4 @@ see the `Active Directory Certificate Services documentation <https://docs.micro
 :Description: This setting changes the behaviour of mismatched host patterns, it allows you to force a fatal error, a warning or just ignore it.
     This setting changes the behaviour of mismatched host patterns, it allows you to force a fatal error, a warning or just ignore it.
    /msg alis LIST #ansible* -min 5
+* No longer allow forks to inherit stdio
