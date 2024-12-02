@@ -51,7 +51,7 @@ Planned work
 
 * Data Tagging
 * Register Projections
-* No longer allow forks to inherit stdio
+* No longer allow forks to inherit ``stdio``
 * ``ansible-galaxy`` CLI improvements
    * Denote preferred collection
    * Add ``uninstall`` command
